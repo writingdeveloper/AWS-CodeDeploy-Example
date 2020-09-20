@@ -2,7 +2,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /appspce.yml
+  - source: /appspec.yml
     destination: /home/ubuntu/appspec.yml
 hooks:
   BeforeInstall:
