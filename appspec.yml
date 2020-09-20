@@ -21,8 +21,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /home/ubuntu/build
+    - source: /appspce.yml
+      destination: /home/ubuntu/appspec.yml
 hooks:
   BeforeInstall:
     - location: /initialize.sh
