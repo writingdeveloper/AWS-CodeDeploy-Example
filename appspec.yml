@@ -2,9 +2,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /appspec.yml
-    destination: /home/ubuntu/appspec.yml
-hooks:
+  - source: /
+    destination: /home/ubuntu/build
   BeforeInstall:
     - location: /initialize.sh
       runas: root
