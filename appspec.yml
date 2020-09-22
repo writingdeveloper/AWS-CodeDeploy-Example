@@ -2,8 +2,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /home/ubuntu/build
+    - source: /
+      destination: /home/ubuntu/build
   BeforeInstall:
     - location: /initialize.sh
       runas: root
